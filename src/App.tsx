@@ -38,7 +38,7 @@ function App() {
             <div className="course-card">
               <div className="badge">ĐANG DIỄN RA</div>
               <h4>Lập trình Web</h4>
-              <a href="/course/web" className="btn">Vào lớp học</a>
+              <a href="https://drive.google.com/drive/folders/1cXauXGvhTVP7kG2Uxg_aWTIFAczE-5WH" className="btn" target="_blank">Vào lớp học</a>
             </div>
             <div className="course-card add-new">
               <a href="#register">+ ĐĂNG KÝ LỚP MỚI</a>

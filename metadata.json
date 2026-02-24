@@ -1,0 +1,7 @@
+{
+  "name": "VOV LMS",
+  "description": "Hệ thống điểm danh QR thời gian thực và LMS tinh gọn hỗ trợ bởi AI",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

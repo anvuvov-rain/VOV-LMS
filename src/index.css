@@ -1,1 +1,52 @@
+:root {
+  --vov-blue: #004a99;
+  --vov-red: #c02026;
+}
 
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f7f6;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: white;
+  border-bottom: 2px solid var(--vov-blue);
+}
+
+.banner {
+  background: url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e') center/cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.quote-box {
+  background: rgba(0, 74, 153, 0.8);
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 700px;
+  text-align: center;
+  font-style: italic;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.course-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}

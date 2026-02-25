@@ -102,7 +102,7 @@ function App() {
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '15px' }}>
               <div className="course-card" style={{ background: 'white', padding: '20px', borderRadius: '15px' }}>
                 <h4>Lập trình Web</h4>
-                <a href="LINK_DRIVE_CUA_BAN" target="_blank" className="btn">Vào lớp học</a>
+                <a href="https://drive.google.com/drive/folders/1cXauXGvhTVP7kG2Uxg_aWTIFAczE-5WH?usp=sharing" target="_blank" className="btn">Vào lớp học</a>
               </div>
               <div className="course-card" style={{ background: 'white', border: '2px dashed #cbd5e1', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '15px' }}>
                 <span>+ ĐĂNG KÝ LỚP MỚI</span>

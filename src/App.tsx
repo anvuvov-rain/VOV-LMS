@@ -5,7 +5,7 @@ import { QRCodeCanvas } from 'qrcode.react';
 import { motion } from 'framer-motion';
 import { Shield, BookOpen, PenTool, BarChart, LogOut, Cpu } from 'lucide-react';
 
-const CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID || "1124228007902-4akrlkt90re0km3iu6ms3glg5d1vee4q.apps.googleusercontent.com";
+const CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID || "124228007902-bc6g4auedkb8jdvb71s9m0ifvgmr0kql.apps.googleusercontent.com";
 
 function App() {
   const [user, setUser] = useState<any>(null);
